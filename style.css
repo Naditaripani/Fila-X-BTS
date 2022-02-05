@@ -1,0 +1,293 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Indeks.html mulai*/
+.header {
+	background-color: #a4a4a4;
+  	color: #fff;
+  	float: right;
+  	height: 70px;
+  	width: 1000px;
+  	box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.16);
+}
+
+.header-logo img {
+  float: left;
+  width: 40px;
+  height: 40px;
+  padding: 15px 50px;
+  position: absolute;
+}
+
+.header-list li {
+	float: right;
+	padding-right: 20px;
+	padding-top: 25px;
+	margin-right: 40px;
+}
+
+.header-list a {
+	text-decoration: none;
+	font-size: 19px;
+}
+
+.header-list #list a {
+	color: black;
+}
+
+.header-list #list a:hover {
+	color: white;
+}
+
+.header-list #button a {
+	color: white;
+	background-color: #082a63;
+	padding: 10px 40px;
+	border-radius: 30px;
+	margin-top: 10px;
+	box-shadow: 0px 4px 4px grey;
+}
+
+.header-list #button a:hover {
+	box-shadow: 0px 7px 1px grey;
+	background-color: white;
+	color: black
+}
+
+.header-foto img {
+	width: auto;
+    height: 663px;
+    z-index: 1;
+    position: absolute;
+}
+
+.foto2 img {
+    height: 400px;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    margin-left: 350px;
+}
+
+.foto3 img {
+    height: 400px;
+    z-index: 1;
+    position: absolute;
+  	margin-left: 1080px;
+  	top: 100px;
+}
+
+.foto4 img {
+    height: 300px;
+    z-index: 3;
+    position: absolute;
+  	margin-left: 870px;
+  	bottom: 100px;
+}
+
+.text p {
+	z-index: 5;
+	position: absolute;
+	font-family: "Mongolian Baiti";
+	font-size: 35px;
+	margin-left: 450px;
+	margin-top: 90px;
+	line-height: 50px;
+}
+
+.text2 p {
+	z-index: 5;
+	position: absolute;
+	font-family: "Mongolian Baiti";
+	font-size: 35px;
+	margin-left: 580px;
+	bottom: 120px;
+	line-height: 50px;
+}
+
+.sosmed img {
+    height: auto;
+    position: absolute;
+    bottom: 45px;
+    margin-left: 1100px;
+}
+/*Indeks.html selesai*/
+
+/*login.html mulai*/
+
+.content {
+	background-color: white;
+	height: 100%;
+	width: cover;
+}
+
+.kanan {
+	float: right;
+	height: 500px;
+    width: 750px;
+    margin-top: 20px;
+}
+
+.kanan img {
+	margin: 10px;
+    width: 33px;
+}
+
+.kanan .judul {
+	font-size: 5vh;
+	font-family: "Mongolian Baiti";
+	margin-bottom: 25px;
+	margin-top: 20px;
+}
+
+ul li {
+	display: inline-block;
+}
+
+.kata {
+	font-family: "Mongolian Baiti";
+	font-size: 3vh;
+	margin-bottom: 20px;
+}
+
+input {
+	width: 250px;
+	height: 25px;
+	display: block;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+.pw {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 2vh;
+
+}
+
+.pw span a {
+	color: blue;
+	text-decoration: none;
+}
+
+.login {
+	text-decoration: none;
+	color: white;
+	/*box-shadow: 0px 3px 0px grey;*/
+	background-color: #082a63;
+	border-radius: 20px;
+	padding: 10px 40px;
+}
+
+.login:hover {
+	box-shadow: 0px 7px 1px grey;
+	background-color: white;
+	border: 2px solid black;
+	color: black
+}
+
+.kiri {
+	float: left;
+}
+
+.kiri img {
+	height: 662px;
+}
+
+/*.kembali {
+	color: black;
+	position: absolute;
+	margin: 20px 10px;
+	text-decoration: none;
+	font-size: 2vh;
+	color: black;
+	background-color: grey;
+	border-radius: 20px;
+	padding: 10px 40px;
+}
+
+.kembali:hover {
+	background-color: white;
+	box-shadow: 0px 5px 1px lightgrey;
+}*/
+
+/*login.html selesai*/
+
+/*halaman utama*/
+
+.header2 {
+	background-color: #a4a4a4;
+  	color: #fff;
+  	height: 70px;
+  	width: auto;
+  	box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.16);
+  	position: relative;
+  	z-index: 1;
+}
+
+.hero img {
+	width: cover;
+	background-repeat: repeat;
+	height: 500px;
+}
+
+.menu {
+	float: left;
+	width: 300px;
+	height: 500px;
+	background-color: #a4a4a4;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-atas {
+	float: right;
+	width: 25px;
+	height: 30px;
+	margin: 15px;
+}
+
+
+
+/*Halaman utama selesai*/
